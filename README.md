@@ -1,2 +1,2 @@
 # ZagorTeNej
-recenzije zagor stripova
+recenzije stripova
