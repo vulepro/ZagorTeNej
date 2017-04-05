@@ -1,1 +1,43 @@
 body {}
+  body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+      font-family: "Arial", sans-serif !important;
+      font-weight: 300;
+      line-height: 1.5em;
+  }
+
+h1   {    text-align: center; font-size: 58px;}
+p    {font-size: 24px;}
+.header-image {
+    background-image: url(images/zagor_and_chico.png);
+    height: 570px;
+}
+h1.light-header {
+    color: #ffffff;
+    font-size: 7rem;
+    font-weight: 900;
+    padding: 12% 20% 20px;
+}
+p.header-content {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+p.center {
+    text-align: center;
+    padding: 20px 0;
+}
+button.my-btn {
+    color: #ffffff;
+    background: #d70000;
+    border: none;
+    padding: 8px 50px;
+    box-shadow: 0 2px 2px 0 rgba(180, 174, 181, 0.16), 0 3px 1px -2px rgba(143, 139, 144, 0.2), 0 1px 5px 0 rgba(110, 105, 111, 0.12);
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+button.my-btn:hover {
+  box-shadow: 0 14px 26px -12px rgba(149, 144, 150, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 57, 60, 0.2);
+}
